@@ -2,7 +2,7 @@
 Using modules like numpy and matplotlib to have fun with math
 
 ## **Installation:**  
-1. **Clone Repository: **
+1. **Clone Repository:**  
    ```bash
    git clone [https://github.com/hasezaf/math.git](https://github.com/hasezaf/math.git)
    cd math
