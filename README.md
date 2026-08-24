@@ -18,6 +18,8 @@ Run the program using:
 ```bash
 python projectile_motion_with_drag.py
 ```
+**Demo:**  
+![Trajectory Simulation](projectile_motion.gif)
 
 
 
