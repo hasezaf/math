@@ -97,6 +97,7 @@ def update(frame):
     point.set_data([x_drag[frame]], [y_drag[frame]])
     return line, point, line1, point1
 
+step = max(1, range_for_graph//100)
 anim = FuncAnimation(
     fig,
     update,
@@ -106,6 +107,7 @@ anim = FuncAnimation(
     repeat=True,
 )
 
+anim.save("trajectory.gif", writer="pillow", fps=30, dpi=80)
 plt.show()
 
 
